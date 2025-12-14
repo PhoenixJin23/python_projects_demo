@@ -8,7 +8,7 @@ import pandas as pd #Python数据分析的核心第三方库
 #可以很方便地对结构化数据进行处理（JSON,csv,excel..数据）
 
 #将数据作为字符串读取并转换为Python对象
-path=Path("C:/Users/g3472/Desktop/py_projects_demo/Data_visualization/earthquake_data/eq_data_30_day_m1.geojson")
+path=Path("C:/Users/g3472/Desktop/py_projects_demo/Data_visualization/data/eq_data_30_day_m1.geojson")
 try:
     contents=path.read_text()
 except:
