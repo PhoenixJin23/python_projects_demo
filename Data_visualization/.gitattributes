@@ -1,0 +1,4 @@
+# 强制将.py文件识别为Python，提升Python的语言占比
+*.py linguist-language=Python
+# （可选）如果有HTML文件，可降低其权重
+*.html linguist-language=HTML linguist-documentation=true
